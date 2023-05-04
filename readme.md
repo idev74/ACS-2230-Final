@@ -18,7 +18,7 @@ The form elements will be stacked vertically with the label above each input ali
 
 See the image below. 
 
-![assessment desktop](./assessment-desktop.png)
+![assessment desktop](https://user-images.githubusercontent.com/77900249/236277485-b4d3d0b9-1764-41ff-a633-ea708796a190.png)
 
 When the screen is 800px or smaller the the site should arrange itself vertically with the image at the top and the form below. 
 
@@ -26,7 +26,7 @@ The form elements should stack vertically with the label on the left of each inp
 
 See the image below: 
 
-![assessment tablet](./assessment-tablet.png)
+![assessment tablet](https://user-images.githubusercontent.com/77900249/236277593-bed81311-4fe8-478e-aa08-311ce2fb1c66.png)
 
 On mobile devices the the page should stack vertically with the image at the top and the form below. 
 
@@ -34,7 +34,7 @@ The form elements should display almost the full width of the screen, centered a
 
 See the image below: 
 
-![assessment mobile](./assessment-mobile.png)
+![assessment mobile](https://user-images.githubusercontent.com/77900249/236277706-4ca65b15-41f4-4ae3-a2b4-417ca0b4a00e.png)
 
 ## Accessibility
 
