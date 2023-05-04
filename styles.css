@@ -9,30 +9,17 @@ html {
 
 .container {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-direction: row-reverse;
     border: 1px solid black;
-    width: 100%;
+    max-width: 800px;
 }
 
 .sliders {
-    flex: 0 0 auto;
     margin: 0 10px 0 0;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
-img {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 0 0 calc(50% - 10px); /* set image width to 50% of container width minus margin */
-  margin-bottom: 10px;
-}
-
-
-input {
-    max-width: 150%;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 800px) {
@@ -45,7 +32,6 @@ input {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        border: 1px solid black;
     }
 
     .sliders {
@@ -60,6 +46,7 @@ input {
     .container {
         width: 100%;
         height: 100%;
+        border: none;
     }
 
     .sliders {
