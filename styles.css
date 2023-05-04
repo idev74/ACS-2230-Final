@@ -22,7 +22,7 @@ html {
     margin: 0 10px 0 0;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 input {
@@ -52,11 +52,12 @@ input {
     }
 
     input {
-        display: flex;
-        justify-content: flex-start;
-        align-self: baseline;
-        width: 300px;
+        width: 250px;
     };
+
+    img {
+        object-fit: cover;
+    }
 
 }
 
